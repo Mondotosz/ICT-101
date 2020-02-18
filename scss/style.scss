@@ -1,0 +1,55 @@
+$background: #263238;
+$text: #b0bec5;
+$accent: #009688;
+$border: #000;
+$link: #80cbc4;
+$linkVisited: #546e7a;
+$linkHover: #c3e88d;
+$linkFocus: #f07178;
+
+body {
+  background: $background;
+  color: $text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $accent;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+
+table {
+  width: 80%;
+  border: none;
+  margin: 0 auto;
+
+  th, td {
+    padding: 5px;
+    vertical-align: top;
+    text-align: left;
+    border-bottom: 1px solid $border;
+  }
+}
+
+a {
+  color: $link;
+  text-decoration: none;
+}
+
+a:visited {
+  color: $linkVisited;
+}
+
+a:hover {
+  color: $linkHover;
+  transition: color 200ms;
+}
+
+
+a:focus {
+  color: $linkFocus;
+  transition: color 200ms;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ict-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test\"",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mondotosz/ICT-101.git"
+  },
+  "keywords": [
+    "101"
+  ],
+  "author": "augsburger kenan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mondotosz/ICT-101/issues"
+  },
+  "homepage": "https://github.com/Mondotosz/ICT-101#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
