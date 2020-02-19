@@ -6,6 +6,8 @@ $link: #80cbc4;
 $linkVisited: #546e7a;
 $linkHover: #c3e88d;
 $linkFocus: #f07178;
+$backgroundSelection: #546E7A;
+$button: #2E3C43;
 
 body {
   background: $background;
@@ -52,4 +54,27 @@ a:hover {
 a:focus {
   color: $linkFocus;
   transition: color 200ms;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  display: block;
+  padding: 15px 25px;
+  text-align: center;
+  background-color: $button;
+  color: $text;
+  margin: 0;
+}
+
+nav a:visited {
+  color: $text;
+}
+
+nav a:hover {
+  background-color: $backgroundSelection;
+  color: $linkFocus;
 }
