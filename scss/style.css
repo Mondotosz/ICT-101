@@ -61,9 +61,23 @@ nav a:visited {
   color: #b0bec5;
 }
 
-nav a:hover {
+nav a:hover, nav a:focus {
   background-color: #546E7A;
   color: #f07178;
+  transition: color, background-color 200ms;
+}
+
+#logo {
+  margin-right: 8px;
+  height: 50px;
+  transition-duration: 500ms;
+  transition-property: height, padding-bottom, padding-left, padding-right, padding-top;
+}
+
+#logo:hover {
+  height: 30px;
+  padding: 10px;
+  transition-duration: 500ms;
 }
 
 /*# sourceMappingURL=style.css.map */

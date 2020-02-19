@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="400"
+  height="400">
+  <!-- opaque layer -->
+  <!-- <polygon points="0,0 400,0 400,400 0,400" style="fill:#263238"/> -->
+  <!-- base -->
+  <polygon points="200,0 400,200 200,400 0,200 " style="fill:#009688;stroke:#009688;stroke-width:1;"/>
+  <!-- bars -->
+  <polygon points="50,50 175,175 125,225 0,100" style="fill: #80cbc4;stroke: #80cbc4;stroke-width: 1"/>
+  <polygon points="400,300 350,350 225,225 275,175" style="fill: #80cbc4;stroke: #80cbc4;stroke-width: 1"/>
+  <!-- addons -->
+  <polygon points="50,300 0,250 100,150 150,200" style="fill: #80cbc4;stroke: #80cbc4;stroke-width: 1"/>
+  <polygon points="400,150 350,100 225,225 275,275" style="fill: #80cbc4;stroke: #80cbc4;stroke-width: 1"/>
+</svg>
