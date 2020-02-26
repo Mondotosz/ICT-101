@@ -3,25 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"test\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch scss -o css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mondotosz/ICT-101.git"
   },
-  "keywords": [
-    "101"
-  ],
-  "author": "augsburger kenan",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mondotosz/ICT-101/issues"
   },
-  "homepage": "https://github.com/Mondotosz/ICT-101#readme",
-  "dependencies": {
-    "node-sass": "^4.13.1",
-    "parcel-bundler": "^1.12.4"
-  }
+  "homepage": "https://github.com/Mondotosz/ICT-101#readme"
 }

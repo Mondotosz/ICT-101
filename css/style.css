@@ -13,12 +13,11 @@ table {
   width: 80%;
   border: none;
   margin: 0 auto; }
-
-table th, table td {
-  padding: 5px;
-  vertical-align: top;
-  text-align: left;
-  border-bottom: 1px solid #000; }
+  table th, table td {
+    padding: 5px;
+    vertical-align: top;
+    text-align: left;
+    border-bottom: 1px solid #000; }
 
 a {
   color: #80cbc4;
@@ -59,11 +58,9 @@ nav a:hover, nav a:focus {
   margin-right: 8px;
   height: 50px;
   transition-duration: 500ms;
-  transition-property: height, padding-bottom, padding-left, padding-right, padding-top; }
+  transition-property: height, padding-bottom,padding-left,padding-right,padding-top; }
 
 #logo:hover {
   height: 30px;
   padding: 10px;
   transition-duration: 500ms; }
-
-/*# sourceMappingURL=style.css.map */
