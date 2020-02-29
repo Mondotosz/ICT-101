@@ -49,6 +49,11 @@ nav a:hover, nav a:focus {
     color: #f07178;
 }
 
+.p5Canvas {
+    display: block;
+    margin: auto;
+}
+
 #main-canvas{
     display: block;
     margin: auto;
