@@ -17,40 +17,12 @@
   padding: 20px;
   margin: auto;
   border: black 1px solid;
-}
 
-.login-container {
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
-  border: inherit;
-  padding: 10px;
-  width: fit-content;
-  margin: auto;
-}
+  div {
+    border: inherit;
+    padding: 10px;
+    width: auto;
+    margin: fill;
+  }
 
-.text-box-container {
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
-  border: inherit;
-  padding: 10px;
-  width: fit-content;
-  margin: auto;
-}
-
-.list-container {
-  grid-column: 1 / span 1;
-  grid-row: 2 / span 1;
-  border: inherit;
-  padding: 10px;
-  width: fit-content;
-  margin: auto;
-}
-
-.scroll-list-container {
-  grid-column: 2 / span 1;
-  grid-row: 2 / span 1;
-  border: inherit;
-  padding: 10px;
-  width: fit-content;
-  margin: auto;
 }

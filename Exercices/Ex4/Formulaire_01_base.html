@@ -17,7 +17,6 @@
             <br>
             <label for="password">Password :</label><br>
             <input type="text" id="password" name="password" size="20">
-            <input type="submit">
         </div>
         <div class="text-box-container">
             <label for="text-box">Multi-line text box</label><br>
@@ -25,19 +24,57 @@
         </div>
         <div class="list-container">
             <label for="choice-list">Choice list</label><br>
-            <select id="choice-list">
+            <select id="choice-list" size="3">
                 <option value="1">Value 1</option>
-                <option value="2">Value 2</option>
+                <option value="2" selected>Value 2</option>
                 <option value="3">Value 3</option>
             </select>
         </div>
         <div class="scroll-list-container">
-            <label for="scroll-choice-list">Choice list</label><br>
+            <label for="scroll-choice-list">Scrolling choice list</label><br>
             <select id="scroll-choice-list">
                 <option value="1">Value 1</option>
                 <option value="2">Value 2</option>
                 <option value="3">Value 3</option>
             </select>
+        </div>
+        <div class="check-box-container">
+            <label>Check the best box</label>
+            <br>
+            <input type="checkbox" id="check-box-1" name="check-box-1">
+            <label for="check-box-1">box 1</label>
+            <br>
+            <input type="checkbox" id="check-box-2" name="check-box-2">
+            <label for="check-box-2">box 2</label>
+            <br>
+            <input type="checkbox" id="check-box-3" name="check-box-3">
+            <label for="check-box-3">box 3</label>
+        </div>
+        <div class="radio-button-container">
+            <label>Check the radio button</label>
+            <br>
+            <input type="radio" id="radio-button-1" name="radio-button-1">
+            <label for="radio-button-1">radio button 1</label>
+            <br>
+            <input type="radio" id="radio-button-2" name="radio-button-2">
+            <label for="radio-button-2">radio button 2</label>
+            <br>
+            <input type="radio" id="radio-button-3" name="radio-button-3">
+            <label for="radio-button-3">radio button 3</label>
+        </div>
+        <div class="salut-container">
+            <button id="salut" name="salut">Salut les formulaires</button>
+        </div>
+        <div>
+            <button type="reset">Retour a la case depart</button>
+            <button type="submit">Envoyer la sauce</button>
+        </div>
+        <div>
+            <label for="date">Date : </label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <input type="file" id="send-file" name="sent-file">
         </div>
     </form>
 </div>
