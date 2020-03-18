@@ -67,6 +67,20 @@ nav a:hover, nav a:focus {
   transition: color, background-color 200ms;
 }
 
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+.footer-container .others-container {
+  grid-column: 1/span 1;
+  grid-row: 1/span 1;
+}
+.footer-container .exercises-container {
+  grid-column: 3/span 1;
+  grid-row: 1/span 1;
+}
+
 #logo {
   margin-right: 8px;
   height: 50px;

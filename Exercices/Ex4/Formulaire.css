@@ -46,4 +46,13 @@
   margin: auto;
 }
 
+.scroll-list-container {
+  grid-column: 2/span 1;
+  grid-row: 2/span 1;
+  border: inherit;
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+}
+
 /*# sourceMappingURL=Formulaire.css.map */
