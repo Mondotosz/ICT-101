@@ -1,0 +1,166 @@
+$tableBorderColor: #000000;
+
+* {
+  font-family: roboto, sans-serif;
+}
+
+.centered {
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: auto auto auto;
+  font-size: 14px;
+}
+
+.header-container {
+  display: block;
+  grid-column: 2/span 1;
+  grid-row: 1/span 1;
+}
+
+.ex1-container {
+  display: block;
+  grid-column: 1/span 1;
+  grid-row: 2/span 1;
+
+  table {
+    border-collapse: collapse;
+    border: 1px solid $tableBorderColor;
+
+    th, td {
+      border: 1px solid $tableBorderColor;
+    }
+  }
+}
+
+.ex2-container {
+  display: block;
+  grid-column: 3/span 1;
+  grid-row: 2/span 1;
+
+  table {
+    border-collapse: separate;
+    border: $tableBorderColor 1px solid;
+
+    th, td {
+      border: 1px solid $tableBorderColor;
+    }
+  }
+
+}
+
+.ex3-container {
+  display: block;
+  grid-column: 1/span 1;
+  grid-row: 3/span 1;
+
+  table {
+    border-collapse: separate;
+    border: blue 20px outset;
+    margin: 25px;
+    border-spacing: 15px;
+
+    .col-1, .col-2 {
+      width: 250px;
+    }
+
+    .even-row {
+      height: 80px;
+    }
+
+    .odd-row {
+      height: 50px;
+    }
+
+    th, td {
+      border: 1px solid $tableBorderColor;
+      padding: min(5px);
+    }
+  }
+}
+
+.ex4-container {
+  display: block;
+  grid-column: 3/span 1;
+  grid-row: 3/span 1;
+  font-family: Tahoma, sans-serif;
+
+  h2 {
+    margin-bottom: -8px;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: green 10px outset;
+    margin: 20px;
+    border-spacing: 15px;
+
+    .even-row {
+      height: 80px;
+    }
+
+    .odd-row {
+      height: 50px;
+    }
+
+    thead {
+      border-bottom: 5px black double;
+    }
+
+    th, td {
+      width: 150px;
+      border: 1px solid $tableBorderColor;
+      padding: min(5px) min(10px);
+      text-align: center;
+      vertical-align: center;
+    }
+
+  }
+}
+
+.vertical-top {
+  vertical-align: top;
+}
+
+.vertical-bottom {
+  vertical-align: bottom;
+}
+
+.vertical-centered {
+  vertical-align: center;
+}
+
+.horizontal-left {
+  text-align: left;
+}
+
+.horizontal-right {
+  text-align: right;
+}
+
+.horizontal-centered {
+  text-align: center;
+}
+
+.plante {
+  background-color: green;
+}
+
+.poison {
+  background-color: #7c057c;
+}
+
+.feu {
+  background-color: orange;
+}
+
+.vol {
+  background-color: #a90ba9;
+}
+
+.electrik {
+  background-color: yellow;
+}

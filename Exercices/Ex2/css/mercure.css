@@ -1,0 +1,55 @@
+* {
+    background-color: #e6dcc3;
+    font-family: "roboto", sans-serif;
+}
+
+div {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #a71d2a;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+    margin: 0;
+}
+
+hr {
+    border-width: 5px;
+    border-color: #1c7430;
+}
+
+.definition-container hr{
+    margin-right: 50%;
+}
+
+.rayon-container hr{
+    margin-left: 50%;
+}
+
+.masse-container hr, .footer-container hr {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#titre {
+    align-content: center;
+    text-align: center;
+}

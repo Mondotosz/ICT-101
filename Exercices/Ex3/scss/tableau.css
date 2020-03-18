@@ -1,0 +1,145 @@
+* {
+  font-family: roboto, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: auto auto auto;
+  font-size: 14px;
+}
+
+.header-container {
+  display: block;
+  grid-column: 2/span 1;
+  grid-row: 1/span 1;
+}
+
+.ex1-container {
+  display: block;
+  grid-column: 1/span 1;
+  grid-row: 2/span 1;
+}
+.ex1-container table {
+  border-collapse: collapse;
+  border: 1px solid #000000;
+}
+.ex1-container table th, .ex1-container table td {
+  border: 1px solid #000000;
+}
+
+.ex2-container {
+  display: block;
+  grid-column: 3/span 1;
+  grid-row: 2/span 1;
+}
+.ex2-container table {
+  border-collapse: separate;
+  border: #000000 1px solid;
+}
+.ex2-container table th, .ex2-container table td {
+  border: 1px solid #000000;
+}
+
+.ex3-container {
+  display: block;
+  grid-column: 1/span 1;
+  grid-row: 3/span 1;
+}
+.ex3-container table {
+  border-collapse: separate;
+  border: blue 20px outset;
+  margin: 25px;
+  border-spacing: 15px;
+}
+.ex3-container table .col-1, .ex3-container table .col-2 {
+  width: 250px;
+}
+.ex3-container table .even-row {
+  height: 80px;
+}
+.ex3-container table .odd-row {
+  height: 50px;
+}
+.ex3-container table th, .ex3-container table td {
+  border: 1px solid #000000;
+  padding: min(5px);
+}
+
+.ex4-container {
+  display: block;
+  grid-column: 3/span 1;
+  grid-row: 3/span 1;
+  font-family: Tahoma, sans-serif;
+}
+.ex4-container h2 {
+  margin-bottom: -8px;
+}
+.ex4-container table {
+  border-collapse: collapse;
+  border: green 10px outset;
+  margin: 20px;
+  border-spacing: 15px;
+}
+.ex4-container table .even-row {
+  height: 80px;
+}
+.ex4-container table .odd-row {
+  height: 50px;
+}
+.ex4-container table thead {
+  border-bottom: 5px black double;
+}
+.ex4-container table th, .ex4-container table td {
+  width: 150px;
+  border: 1px solid #000000;
+  padding: min(5px) min(10px);
+  text-align: center;
+  vertical-align: center;
+}
+
+.vertical-top {
+  vertical-align: top;
+}
+
+.vertical-bottom {
+  vertical-align: bottom;
+}
+
+.vertical-centered {
+  vertical-align: center;
+}
+
+.horizontal-left {
+  text-align: left;
+}
+
+.horizontal-right {
+  text-align: right;
+}
+
+.horizontal-centered {
+  text-align: center;
+}
+
+.plante {
+  background-color: green;
+}
+
+.poison {
+  background-color: #7c057c;
+}
+
+.feu {
+  background-color: orange;
+}
+
+.vol {
+  background-color: #a90ba9;
+}
+
+.electrik {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=tableau.css.map */

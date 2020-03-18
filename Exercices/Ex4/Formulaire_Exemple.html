@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exemple de formulaire HTML</title>
+  	<style>
+  	</style>
+  </head>
+  <body>
+	<h1>Exemple de formulaire à envoyer par email</h1>
+    <form action="mailto:rfa@cpnv.ch" method="post">
+		<input type="text" id="text1" name="nom" size="40" value="Valeur de nom" />
+		<input type ="submit" value="Envoyer"/>
+		<input type="hidden" name="unevaleur" value="cachee"/>
+	</form>
+
+	<h1>Le même formulaire envoyé à une page (via GET)</h1>
+	<form action="http://www.ict101.mycpnv.ch/pourafficherlesdonneesdemonformulaire.php" method="get">
+		<input type="text" id="text3" name="nom" size="40" value="Valeur du champ par défaut" />
+		<input type ="submit" value="Envoyer"/>
+		<input type="hidden" name="unevaleur" value="cachee"/>
+	</form>
+
+	<h1>Le même formulaire envoyé à une page (via POST)</h1>
+	<form action="http://www.ict101.mycpnv.ch/pourafficherlesdonneesdemonformulaire.php" method="post" >
+	  <input type="text" id="text2" name="nom" size="40" value="Valeur du champ par défaut" />
+		<input type ="submit" value="Envoyer"/>
+		<input type="hidden" name="unevaleur" value="cachee"/>
+
+	</form>
+
+
+
+  </body>
+</html>

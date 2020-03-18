@@ -1,0 +1,9 @@
+body{
+    background-color: deepskyblue;
+    font-family: "roboto", sans-serif;
+    /*font-size: 14px;*/
+}
+
+.centered{
+    text-align: center;
+}

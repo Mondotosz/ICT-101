@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <title>HTML forms</title>
+    <link rel="stylesheet" type="text/css" href="Formulaire.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <h1>Forms example</h1>
+    </div>
+    <form class="form" action="http://www.ict101.mycpnv.ch/pourafficherlesdonneesdemonformulaire.php" method="get">
+        <div class="login-container">
+            <label for="username">Username :</label><br>
+            <input type="text" id="username" name="username" size="30">
+            <br>
+            <label for="password">Password :</label><br>
+            <input type="text" id="password" name="password" size="20">
+            <input type="submit">
+        </div>
+        <div class="text-box-container">
+            <label for="text-box">Multi-line text box</label><br>
+            <textarea id="text-box" name="text-box" rows="4" cols="40"></textarea>
+        </div>
+        <div class="list-container">
+            <label for="choice-list">Choice list</label><br>
+            <select id="choice-list">
+                <option value="1">Value 1</option>
+                <option value="2">Value 2</option>
+                <option value="3">Value 3</option>
+            </select>
+        </div>
+    </form>
+</div>
+</body>
+</html>
