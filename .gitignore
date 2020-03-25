@@ -4,6 +4,6 @@
 /js/
 /node_modules/
 /.cache/
-/unversioned/
+/ignored/
 *.png
 *.docx
