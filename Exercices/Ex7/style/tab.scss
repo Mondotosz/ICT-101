@@ -1,0 +1,56 @@
+* {
+  font-family: "Comic Sans MS", sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 10px;
+}
+
+.logo {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+
+  img {
+    height: 100px;
+  }
+}
+
+.main-nav {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  font-weight: bold;
+}
+
+.content {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+
+  table {
+    width: 100%;
+    border: grey 10px outset;
+
+    thead {
+      tr {
+        height: 50px;
+        font-weight: bold;
+      }
+    }
+
+    tbody {
+      tr {
+        height: 100px;
+        font-style: italic;
+
+        td {
+          img {
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+}

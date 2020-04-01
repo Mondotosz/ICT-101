@@ -1,0 +1,83 @@
+* {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.logo {
+  img {
+    height: 100px;
+  }
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
+
+.main-nav {
+  font-weight: bold;
+  color: white;
+  background: black;
+  width: 100%;
+
+}
+
+.odd-row {
+  color: black;
+  background: white;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  img {
+    float: left;
+    height: 150px;
+  }
+}
+
+.even-row {
+  color: white;
+  background: black;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  img {
+    float: right;
+    height: 150px;
+  }
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.encadre {
+  position: fixed;
+  top: 125px;
+  width: 12.5vw;
+  background: black;
+  color: white;
+}

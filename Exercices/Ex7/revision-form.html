@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style/form.css">
+</head>
+<body>
+<div class="container">
+    <div class="logo center">
+        <img src="img/Logo-Star-Wars.png" alt="logo">
+    </div>
+
+    <nav class="main-nav center">
+        <p>
+            <a href="revision-tab.html">Revision Tableau</a>
+            -
+            <a href="revision-form.html">Revision Formulaire</a>
+            -
+            <a href="revision-link.html">Revision liens et DIV</a>
+        </p>
+    </nav>
+    <div class="form-head center">
+        <p>Formulaire d'adhésion à une organisation</p>
+    </div>
+    <form class="centerForm" action="http://www.ict101.mycpnv.ch/pourafficherlesdonneesdemonformulaire.php"
+          method="post">
+
+        <div class="form-group">
+            <label for="radio-ms">Madame</label>
+            <input type="radio" id="radio-ms" name="appellation" value="1">
+            <label for="radio-mr">Monsieur</label>
+            <input type="radio" id="radio-mr" name="appellation" value="2" checked>
+        </div>
+
+        <div class="form-group">
+            <label for="pseudo">Pseudo:</label><br>
+            <input type="text" id="pseudo" class="form-control" name="pseudo" placeholder="Darth Vader" required>
+        </div>
+
+        <div class="form-group">
+            <label for="nom">Nom:</label><br>
+            <input type="text" id="nom" class="form-control" name="nom" placeholder="Skywalker">
+        </div>
+
+        <div class="form-group">
+            <label for="prenom">Prénom:</label><br>
+            <input type="text" id="prenom" class="form-control" name="prenom" placeholder="Anakin">
+        </div>
+
+        <div class="form-group">
+            <label for="email">e-mail:</label><br>
+            <input type="email" id="email" class="form-control" name="email"
+                   placeholder="anakin.skywalker@deathstar.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="pwd">password:</label><br>
+            <input type="password" id="pwd" class="form-control" name="password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="org">Organisation:</label><br>
+            <select id="org" name="organisation" class="form-control">
+                <option value="1">Premier Ordre</option>
+                <option value="2" selected>Empire Galactique</option>
+                <option value="3">Rebelles</option>
+                <option value="4">Résistance</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="fav-color">Couleur préférée </label>
+            <input type="color" id="fav-color" name="fav-color">
+        </div>
+
+        <div class="form-group center">
+            <button type="submit">Adhérer</button>
+            <button type="reset">Effacer</button>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
